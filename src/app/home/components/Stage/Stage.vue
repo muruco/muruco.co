@@ -5,14 +5,18 @@
     <vue-grid>
       <vue-grid-row>
         <vue-grid-item class="vueGridItem">
-          <img src="logo.png" alt="vuesion" />
-          <vue-headline level="1">vuesion</vue-headline>
+          <fade-animation>
+            <img src="logo.png" alt="vuesion" />
+          </fade-animation>
+
+          <vue-headline level="1">Conectando a la Mujer Rual Colombiana.</vue-headline>
+
           <div :class="$style.subTitle">
-            {{
+            <!-- {{
               $t(
                 'App.core.description' /* The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices */,
               )
-            }}
+            }} -->
           </div>
 
           <br />
@@ -24,7 +28,27 @@
             rel="noopener"
             aria-label="vuesion github repository"
           >
-            <vue-icon-github />
+            <vue-icon-whatsapp />
+          </a>
+
+          <a
+            :class="$style.github"
+            href="https://github.com/vuesion/vuesion"
+            target="_blank"
+            rel="noopener"
+            aria-label="vuesion github repository"
+          >
+            <vue-icon-facebook />
+          </a>
+
+          <a
+            :class="$style.github"
+            href="https://github.com/vuesion/vuesion"
+            target="_blank"
+            rel="noopener"
+            aria-label="vuesion github repository"
+          >
+            <vue-icon-twitter-square />
           </a>
         </vue-grid-item>
       </vue-grid-row>
@@ -37,11 +61,23 @@ import { CircleAnimation } from '../../../shared/animations/CircleAnimation';
 import VueGrid from '@components/VueGrid/VueGrid.vue';
 import VueGridRow from '@components/VueGridRow/VueGridRow.vue';
 import VueGridItem from '@components/VueGridItem/VueGridItem.vue';
-import VueIconGithub from '@components/icons/VueIconGithub/VueIconGithub.vue';
+import VueIconWhatsapp from '@components/icons/VueIconWhatsapp/VueIconWhatsapp.vue';
+import VueIconFacebook from '@components/icons/VueIconFacebook/VueIconFacebook.vue';
+import VueIconTwitterSquare from '@components/icons/VueIconTwitterSquare/VueIconTwitterSquare.vue';
 import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
+import FadeAnimation from '../../../shared/animations/FadeAnimation/FadeAnimation.vue';
 
 export default {
-  components: { VueHeadline, VueIconGithub, VueGridItem, VueGridRow, VueGrid },
+  components: {
+    VueHeadline,
+    VueIconWhatsapp,
+    VueIconFacebook,
+    VueIconTwitterSquare,
+    VueGridItem,
+    VueGridRow,
+    VueGrid,
+    FadeAnimation,
+  },
   props: {
     disableParticles: {
       type: Boolean,
@@ -131,10 +167,12 @@ export default {
   background: $brand-bg-color;
   transition: $button-transition;
   transition-property: box-shadow, background-color;
-  color: $brand-link-color;
+  color: #ff8b00;
+  border-radius: 60%;
 
   &:hover {
     box-shadow: $button-active-shadow;
+    color: #f43b6c;
   }
 
   i {

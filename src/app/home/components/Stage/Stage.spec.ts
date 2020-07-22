@@ -16,7 +16,7 @@ describe('Stage.vue', () => {
       },
     });
 
-    expect(wrapper.find('h1').text()).toBe('vuesion');
+    expect(wrapper.find('h1').text()).toBe('Conectando a la Mujer Rual Colombiana.');
 
     (wrapper as any).vm.$refs.stage.getClientRects = () => {
       return {

@@ -1,33 +1,35 @@
 <template>
   <div>
     <stage :disable-particles="disableParticles" />
-    <home-section
-      image="https://images.unsplash.com/photo-1549082984-1323b94df9a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      alternative
-    >
-      <vue-headline level="2">Developer Experience</vue-headline>
+    <home-section image="https://static.iris.net.co/semana/upload/images/2018/12/6/593669_1.jpg" alternative>
+      <vue-headline level="2">Comunidad Abierta</vue-headline>
       <br />
-      <vue-headline level="3">Quick scaffolding</vue-headline>
-      <p>Create components, VueX connected components, modules - and their tests - right from the CLI!</p>
-      <br />
-      <vue-headline level="3">Instant feedback</vue-headline>
+      <vue-headline level="3">¿Qué es MuRuCo?</vue-headline>
       <p>
-        Enjoy the best DX (Developer eXperience) and code your app at the speed of thought! Your saved changes to the
-        CSS and TypeScript are reflected instantaneously without refreshing the page or restarting your server. Preserve
-        application state even when you update something in the underlying code!
+        Es una comunidad abierta para la Mujer Rural Colombiana, una iniciativa con el apoyo de MinTIC y ONU Mujeres la
+        cual nace para conectar integralmente a las mujeres del campo con las tecnologias y recursos digitales,
+        brindandoles un espacio para crear comunidades, informase y capacitarse continuamente en todos los aspectos
+        técnicos y tecnológicos de la industria agricola del país.
       </p>
       <br />
-      <vue-headline level="3">Tons of use-cases</vue-headline>
+      <vue-headline level="3">Centro de Información y Educación Continua</vue-headline>
       <p>
-        e.g. HttpService with interceptors, vuex persist middleware, redirect scenarios, configs for different
-        environments, etc.
+        Como comunidad abierta contaremos pretendemos centralizar la mayor cantidad de información y recursos de interes
+        para la Mujer Rural, seremos además un agilizador en la creación de comunidades productivas autónomas,
+        facilitando recursos tecnológicos, capacitaciones y alianzas estratégicas para lograr la conexión necesaria de
+        las pequeñas y medianas productoras con la tecnología que fortalezca sus procesos productivos.
+      </p>
+      <br />
+      <vue-headline level="3">Plataforma Digital MultiOperativa</vue-headline>
+      <p>
+        Para lograr cerrar la brecha tecnológica entre el Campo y la Ciudad, MuRuCo ofrece una plataforma digital
+        multioperativa capaz de interactuar dinámicamente con cualquier persona a lo largo del territorio nacional a
+        travéz de la integración de servicios que operen sobre la red 3G/SMS, redes de mensajeria instantanea y acceso
+        limitado a internet, para ofrecer la máxima covertura posible.
       </p>
     </home-section>
 
-    <home-section
-      image="https://images.unsplash.com/photo-1521790361543-f645cf042ec4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
-      flip
-    >
+    <home-section image="https://www.elcampesino.co/wp-content/uploads/2018/07/mujer-rural.jpg" flip>
       <vue-headline level="2">Enterprise ready</vue-headline>
       <br />
       <vue-headline level="3">SEO</vue-headline>
@@ -49,7 +51,7 @@
     </home-section>
 
     <home-section
-      image="https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
+      image="https://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2019/10/chrismusic09-1.jpg?itok=i2Fc1pfV"
       alternative
     >
       <vue-headline level="2">User experience</vue-headline>
@@ -74,7 +76,7 @@
     </home-section>
 
     <home-section
-      image="https://images.unsplash.com/photo-1516381548400-349d680edb56?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=512&q=60"
+      image="https://rtvc-assets-radionacional-v2.s3.amazonaws.com/s3fs-public/styles/redes1200x630/public/senalradio/articulo-noticia/galeriaimagen/69835_463218733747849_1186596043_n.jpg?itok=VO6JM-p6"
       flip
     >
       <vue-headline level="2">Quick start</vue-headline>
@@ -114,12 +116,11 @@ import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
 export default {
   metaInfo: {
-    title: 'vuesion - flexible, scalable, opinionated, fast',
+    title: 'MuRuCo.co',
     meta: [
       {
         name: 'description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'muruco - conectando a al mujer rural colombiana',
       },
       {
         name: 'robots',

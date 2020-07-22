@@ -30,7 +30,7 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  background: $nav-bar-bg;
+  background: #ff8b00;
   display: flex;
   flex-direction: row;
   align-content: center;
