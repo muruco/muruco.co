@@ -16,7 +16,7 @@ describe('Stage.vue', () => {
       },
     });
 
-    expect(wrapper.find('h1').text()).toBe('Conectando a la Mujer Rural Colombiana.');
+    expect(wrapper.find('h2').text()).toBe('Conectando a la Mujer Rural Colombiana.');
 
     (wrapper as any).vm.$refs.stage.getClientRects = () => {
       return {

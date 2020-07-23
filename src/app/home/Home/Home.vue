@@ -98,7 +98,7 @@
       image="https://rtvc-assets-radionacional-v2.s3.amazonaws.com/s3fs-public/styles/redes1200x630/public/senalradio/articulo-noticia/galeriaimagen/69835_463218733747849_1186596043_n.jpg?itok=VO6JM-p6"
       flip
     >
-      <vue-headline level="2">¿Cómo empesar?</vue-headline>
+      <vue-headline level="2">¿Cómo empezar?</vue-headline>
       <br />
       <vue-headline level="3">Sigue los siguientes pasos:</vue-headline>
       <br />
