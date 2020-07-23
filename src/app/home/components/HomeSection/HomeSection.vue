@@ -63,6 +63,12 @@ export default {
   background-position: 50%;
   margin-bottom: $space-32;
 
+  &:hover {
+    -ms-transform: scale(1.02); /* IE 9 */
+    -webkit-transform: scale(1.02); /* Safari 3-8 */
+    transform: scale(1.02);
+  }
+
   @include mediaMin(tabletPortrait) {
     min-height: 512px;
     margin-bottom: 0;

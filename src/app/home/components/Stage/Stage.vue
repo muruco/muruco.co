@@ -9,7 +9,7 @@
             <img src="logo.png" alt="vuesion" />
           </fade-animation>
 
-          <vue-headline level="1">Conectando a la Mujer Rual Colombiana.</vue-headline>
+          <vue-headline level="2">Conectando a la Mujer Rural Colombiana.</vue-headline>
 
           <div :class="$style.subTitle">
             <!-- {{
@@ -23,7 +23,7 @@
 
           <a
             :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
+            href="https://github.com/muruco"
             target="_blank"
             rel="noopener"
             aria-label="vuesion github repository"
@@ -33,7 +33,7 @@
 
           <a
             :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
+            href="https://github.com/muruco"
             target="_blank"
             rel="noopener"
             aria-label="vuesion github repository"
@@ -43,7 +43,7 @@
 
           <a
             :class="$style.github"
-            href="https://github.com/vuesion/vuesion"
+            href="https://github.com/muruco"
             target="_blank"
             rel="noopener"
             aria-label="vuesion github repository"

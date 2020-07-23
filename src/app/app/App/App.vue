@@ -6,7 +6,7 @@
 
     <vue-nav-bar>
       <vue-button slot="right" v-if="isAuthenticated === false" color="primary" @click="showLoginModal = true">
-        Login
+        Ingresa
       </vue-button>
 
       <vue-button slot="right" v-if="isAuthenticated" color="primary" @click="onLogout">
@@ -28,19 +28,19 @@
     </vue-cookie-consent>
 
     <vue-sidebar>
-      <vue-sidebar-group title="Languages">
+      <!-- <vue-sidebar-group title="Languages">
         <vue-sidebar-group-item>
           <vue-select name="lang" id="lang" :options="languages" @input="localeSwitch" :value="getLocale" />
         </vue-sidebar-group-item>
-      </vue-sidebar-group>
+      </vue-sidebar-group> -->
 
-      <vue-sidebar-group title="Navigation">
+      <vue-sidebar-group title="Navegación">
         <vue-sidebar-group-item to="/">
           <vue-icon-code />
-          Home
+          Inicio
         </vue-sidebar-group-item>
 
-        <vue-sidebar-group-item :to="{ name: 'counter' }">
+        <!--         <vue-sidebar-group-item :to="{ name: 'counter' }">
           <vue-icon-hashtag />
           VueX Example
         </vue-sidebar-group-item>
@@ -48,10 +48,10 @@
         <vue-sidebar-group-item :to="{ name: 'form' }">
           <vue-icon-hashtag />
           Form Example
-        </vue-sidebar-group-item>
+        </vue-sidebar-group-item> -->
       </vue-sidebar-group>
 
-      <vue-sidebar-group title="Documentation">
+      <vue-sidebar-group title="Documentación">
         <vue-sidebar-group-item>
           <a href="https://vuesion.github.io/docs/en/">
             <vue-icon-book />
@@ -59,7 +59,7 @@
           </a>
         </vue-sidebar-group-item>
 
-        <vue-sidebar-group-item>
+        <!--         <vue-sidebar-group-item>
           <a href="/storybook/?path=/story/design-system-design-system--intro">
             <vue-icon-book />
             Design System
@@ -71,12 +71,12 @@
             <vue-icon-puzzle-piece />
             Components
           </a>
-        </vue-sidebar-group-item>
+        </vue-sidebar-group-item> -->
       </vue-sidebar-group>
 
-      <vue-sidebar-group title="Community">
+      <vue-sidebar-group title="Comunidad">
         <vue-sidebar-group-item>
-          <a href="https://github.com/vuesion/vuesion" target="_blank" rel="noopener">
+          <a href="https://github.com/muruco" target="_blank" rel="noopener">
             <vue-icon-github />
             Github
           </a>

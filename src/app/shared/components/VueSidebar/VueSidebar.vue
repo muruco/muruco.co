@@ -68,11 +68,12 @@ export default {
   max-width: $sidebar-max-width;
   padding: $sidebar-padding;
   margin: $sidebar-margin;
-  overflow-y: scroll;
+  overflow-y: hidden;
   transform: translateX(-100%);
   transition: transform $brand-transition-duration ease-in-out;
   width: $sidebar-width;
   -webkit-overflow-scrolling: touch;
+  background-color: #ffe6c7;
 
   &.open {
     transform: translateX(0);

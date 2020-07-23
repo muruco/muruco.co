@@ -4,49 +4,61 @@
     <home-section image="https://static.iris.net.co/semana/upload/images/2018/12/6/593669_1.jpg" alternative>
       <vue-headline level="2">Comunidad Abierta</vue-headline>
       <br />
-      <vue-headline level="3">¿Qué es MuRuCo?</vue-headline>
+      <vue-headline level="3">¿Qué es MuRuCo? </vue-headline>
+      <br />
       <p>
-        Es una comunidad abierta para la Mujer Rural Colombiana, una iniciativa con el apoyo de MinTIC y ONU Mujeres la
-        cual nace para conectar integralmente a las mujeres del campo con las tecnologias y recursos digitales,
-        brindandoles un espacio para crear comunidades, informase y capacitarse continuamente en todos los aspectos
-        técnicos y tecnológicos de la industria agricola del país.
+        <strong>Mu</strong>jer <strong>Ru</strong>ral <strong>Co</strong>lombiana <strong>MuRuCo</strong>. Es una
+        <strong>Comunidad Abierta</strong> para la Mujer productora del país. Nace como una iniciativa con el apoyo de
+        MinTIC y ONU Mujeres, la cual desea conectar <strong>Integralmente</strong> a las Mujeres del Campo con las
+        nuevas tecnologias y recursos digitales, a través de un proceso enfocado en la educación practica y eficiente.
+        Para esto <strong>MuRuCo</strong> ofrece un espacio para crear comunidad, informase, capacitarse y continuamente
+        buscar el mejoramiento de las condiciones de la <strong>Mujer Rural</strong>.
       </p>
       <br />
-      <vue-headline level="3">Centro de Información y Educación Continua</vue-headline>
+      <vue-headline level="3">Centro de Información y Educación Continua </vue-headline>
+      <br />
       <p>
-        Como comunidad abierta contaremos pretendemos centralizar la mayor cantidad de información y recursos de interes
-        para la Mujer Rural, seremos además un agilizador en la creación de comunidades productivas autónomas,
-        facilitando recursos tecnológicos, capacitaciones y alianzas estratégicas para lograr la conexión necesaria de
-        las pequeñas y medianas productoras con la tecnología que fortalezca sus procesos productivos.
+        Creando la <strong>Comunidad Abierta</strong> más grande del Agro Colombiano, pretendemos que cualquier persona
+        interesada en ayudar en la <strong> Construcción de una Sociedad más Equitativa y Digna</strong>, participe
+        aportando en diferentes aspectos de la <strong> Creación y Dirección de Soluciones</strong> que inpacten la
+        columna verteblal del sector: la Mujer Rual, por ello nuestro objetivo es centralizar la mayor cantidad de
+        información y recursos de interes garantizandoles a ellas un acceso fácil y continuo a las herramientas técnicas
+        y tecnologicas que necesiten para la
+        <strong> creación de Comunidades Productivas Autónomas y Sustentables</strong>.
       </p>
       <br />
-      <vue-headline level="3">Plataforma Digital MultiOperativa</vue-headline>
-      <p>
-        Para lograr cerrar la brecha tecnológica entre el Campo y la Ciudad, MuRuCo ofrece una plataforma digital
-        multioperativa capaz de interactuar dinámicamente con cualquier persona a lo largo del territorio nacional a
-        travéz de la integración de servicios que operen sobre la red 3G/SMS, redes de mensajeria instantanea y acceso
-        limitado a internet, para ofrecer la máxima covertura posible.
-      </p>
     </home-section>
 
-    <home-section image="https://www.elcampesino.co/wp-content/uploads/2018/07/mujer-rural.jpg" flip>
-      <vue-headline level="2">Enterprise ready</vue-headline>
+    <home-section image="/images/chatbot5.png" flip>
+      <vue-headline level="2">Tecnología inclusiva</vue-headline>
       <br />
-      <vue-headline level="3">SEO</vue-headline>
+      <vue-headline level="3">Muru 🤖</vue-headline>
+      <br />
       <p>
-        We support SEO (document head tags management) and server-side-rendering for search engines that support
-        indexing of JavaScript content. (eg. Google)
+        Conoce a <strong>Muru!</strong> Nuestro <strong>ChatBot</strong> capaz de comunicar gran parte de las
+        iniciativas, proyectos, jornadas educativas y propuestas que <strong>MuRuCo</strong> tiene para tí. <br />
+        <strong>Muru</strong>, entre muchos servicios, ofrece el registro automatizado a la comunidad a través de
+        mensajeria instantanea, con ello planeamos cerrar gran parte de las barreras de entrada a las plataformas
+        digitales, ofreciendo formación digital accesible a través de medios de amplio alcance. <strong>Muru</strong> te
+        ofrecerá boletines informativos, encuestas y demás funcionalidades que nos permitan conocer mejor las
+        necesidades de todas las Mujeres Rurales de nuestro país.
       </p>
       <br />
-      <vue-headline level="3">Best practices</vue-headline>
+      <vue-headline level="3">SMS 📨</vue-headline>
+      <br />
       <p>
-        A Common style guide, TypeScript, and the best test setup: Automatically guarantee code quality and non-breaking
-        changes.
+        Para aquellas personas alejadas de la covertura 3.5G+, Nuestra estrategia permitirá estar siempre en contacto a
+        través de la <strong>red SMS </strong>, enviando notificaciones importante e información relevante para que no
+        te pierdas de ninguna iniciativa o evento importante en tu región.
       </p>
       <br />
-      <vue-headline level="3">i18n</vue-headline>
+      <vue-headline level="3">Web APP 📱</vue-headline>
+      <br />
       <p>
-        Scalable apps need to support multiple languages, easily add and support multiple languages with vue-i18n.
+        Nuestra plataforma ofrece <strong>Tecnología Multiplataforma y Progresiva</strong> , esto quiere decir que
+        ofreceremos todos nuestros servicios con énfasis en los dispositivos móviles pero sin la necesidad de instalar
+        aplicaciones o disponer de dispositivos específicos, pues nuestra Web ofrece la experiencia de una aplicación
+        nativa con el uso de tecnología <strong>PWA</strong> y los nuevos estandares de JavaScript.
       </p>
     </home-section>
 
@@ -54,24 +66,31 @@
       image="https://static.hsbnoticias.com/sites/default/files/styles/original/public/gallery/2019/10/chrismusic09-1.jpg?itok=i2Fc1pfV"
       alternative
     >
-      <vue-headline level="2">User experience</vue-headline>
+      <vue-headline level="2">Integración de Soluciones</vue-headline>
       <br />
-      <vue-headline level="3">Animations</vue-headline>
+      <vue-headline level="3">Centro de Acceso</vue-headline>
+      <br />
       <p>
-        A stable animations set up already included (<a href="http://animejs.com/" target="_blank" rel="noopener"
-          >anime.js</a
-        >).
+        <strong>MuRuCo</strong> No prentende construir la rueda! Pero si crear un <strong> puente de acceso </strong> y
+        de integración a todas las <strong>soluciones existentes</strong> en el mercado para diversas problematicas de
+        la Mujeres Rurales del país, como transporte, comercialización y abastecimiento.
       </p>
       <br />
-      <vue-headline level="3">Progressive-Web-App</vue-headline>
+      <vue-headline level="3">Oferta tus servicios</vue-headline>
+      <br />
       <p>
-        Offline-first support with service-workers and a lighthouse score as high as possible (90+).
+        <strong>MuRuCo</strong> ofrece un espacio comunitario donde todos podran ofertar sus servicios en PRO de la
+        Mujer Rural, pretendemos que los <strong> aportes sean volutarios</strong> donde las mismas Mujeres o personas
+        interesadas compartan sus experiencias y habilidades.
       </p>
       <br />
-      <vue-headline level="3">Design System</vue-headline>
+      <vue-headline level="3">Crea comunidad</vue-headline>
+      <br />
       <p>
-        Includes a blueprint for a 100% customizable Design System with a huge amount of
-        <a href="/storybook" target="_blank" rel="noopener">components</a>.
+        A través de <strong>Geolocalización</strong> estrategica, Acceso a <strong>Foros</strong> de discusión y
+        <strong>Comunidades</strong> tipo red social, dentro de <strong>MuRuCo</strong>, tendras todo lo necesario para
+        interactuar con las comunidades de Mujeres emprendedoras más cercanas a tí, además de ver cuales son sus
+        <strong> Necesidades y Fotalezas </strong>, para así crear un ambiente de Innovación y Desarrollo constante.
       </p>
     </home-section>
 
@@ -79,30 +98,31 @@
       image="https://rtvc-assets-radionacional-v2.s3.amazonaws.com/s3fs-public/styles/redes1200x630/public/senalradio/articulo-noticia/galeriaimagen/69835_463218733747849_1186596043_n.jpg?itok=VO6JM-p6"
       flip
     >
-      <vue-headline level="2">Quick start</vue-headline>
+      <vue-headline level="2">¿Cómo empesar?</vue-headline>
       <br />
-      <vue-headline level="3">Via <code>npx</code></vue-headline>
-      <br />
-      <ol>
-        <li>
-          Run <code>npx @vuesion/create [project-name]</code><br />
-          for example <code>npx @vuesion/create my-app</code>
-        </li>
-        <li>Change directory <code>cd my-app</code></li>
-        <li>Run <code>npm run dev</code></li>
-      </ol>
-      <br />
-      <br />
-      <vue-headline level="3">Via Git</vue-headline>
+      <vue-headline level="3">Sigue los siguientes pasos:</vue-headline>
       <br />
       <ol>
         <li>
-          Download or clone (<code>git clone https://github.com/<br />vuesion/vuesion</code>) the repository
+          Registrate a nuestra comunidad Via Muru <code>+ 57 300452026 </code><br />
+          opción <code>1</code> ó Registro en la Web <code>AQUÍ</code>.
         </li>
-        <li>Change directory <code>cd vuesion</code></li>
-        <li>Install dependencies: <code>npm install</code></li>
-        <li>Run <code>npm run dev</code></li>
+        <br />
+        <li>
+          Completa tu <strong>perfil</strong> , cuentanos tus problematicas si eres una Mujer Rural <br />
+          o si deseas apoyar alguna iniciativa.
+        </li>
+        <br />
+        <li>y <strong>listo! </strong> Explora, Participa, Aprende y Aporta a la comunidad <strong>MuRuCo!</strong></li>
       </ol>
+      <br />
+      <br />
+      <vue-headline level="3"> 👐 Somos OpenSource</vue-headline>
+      <br />
+      <p>
+        Visita nuestro repositorio en <a href="https://github.com/muruco" target="_blank" rel="noopener"> GitHub </a> si
+        eres desarrollador y deseas apoyarnos. 🤜🤛
+      </p>
     </home-section>
   </div>
 </template>
