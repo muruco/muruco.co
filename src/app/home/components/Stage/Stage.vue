@@ -13,7 +13,7 @@
             <img src="logo.png" alt="vuesion" />
           </fade-animation>
 
-          <vue-headline level="2">Conectando a la Mujers Rural Colombiana.</vue-headline>
+          <vue-headline level="2">Conectando a la Mujer Rural Colombiana.</vue-headline>
 
           <div :class="$style.subTitle">
             <!-- {{
