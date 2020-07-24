@@ -140,7 +140,7 @@ export default {
     meta: [
       {
         name: 'description',
-        content: 'muruco - conectando a al mujer rural colombiana',
+        content: 'Muruco - conectando a la mujer rural colombiana',
       },
       {
         name: 'robots',
@@ -148,39 +148,35 @@ export default {
       },
       {
         name: 'keywords',
-        content: 'vue.js, vuex, vuex-persist, seo, server-side-rendering, isomorphic, progressive-web-app',
+        content: 'mujer rural, colombia, muruco',
       },
 
-      { name: 'og:url', content: 'https://vuesion.herokuapp.com/' },
-      { name: 'og:site_name', content: 'vuesion' },
+      { name: 'og:url', content: 'https://muruco.herokuapp.com/' },
+      { name: 'og:site_name', content: 'Muruco' },
       { name: 'og:type', content: 'website' },
-      { name: 'og:locale', content: 'en' },
+      { name: 'og:locale', content: 'es' },
       {
         name: 'og:title',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'Muruco - conectando a la mujer rural colombiana',
       },
       {
         name: 'og:description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'Muruco - conectando a la mujer rural colombiana',
       },
-      { name: 'og:image:url', content: 'https://vuesion.herokuapp.com/logo.png' },
+      { name: 'og:image:url', content: 'launcher.png' },
 
       { name: 'twitter:card', content: 'summary' },
-      { name: 'twitter:site', content: '@vuesion1' },
-      { name: 'twitter:creator', content: '@vuesion1' },
+      { name: 'twitter:site', content: '@muruco.co' },
+      { name: 'twitter:creator', content: '@muruco.co' },
       {
         name: 'twitter:title',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'Muruco - conectando a la mujer rural colombiana',
       },
-      { name: 'twitter:url', content: 'https://vuesion.herokuapp.com/' },
-      { name: 'twitter:image', content: 'https://vuesion.herokuapp.com/logo.png' },
+      { name: 'twitter:url', content: 'https://muruco.herokuapp.com/' },
+      { name: 'twitter:image', content: 'https://muruco.herokuapp.com' },
       {
         name: 'twitter:description',
-        content:
-          'vuesion - The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices',
+        content: 'Muruco - conectando a la mujer rural colombiana',
       },
     ],
   },

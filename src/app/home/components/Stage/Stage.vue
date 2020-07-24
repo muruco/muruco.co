@@ -1,5 +1,9 @@
 <template>
-  <div :class="$style.stage" ref="stage">
+  <div
+    :class="$style.stage"
+    ref="stage"
+    style="background-image: url(''); background-repeat: no-repeat; background-size: cover; "
+  >
     <canvas :class="$style.canvas" ref="canvas"></canvas>
 
     <vue-grid>
@@ -9,7 +13,7 @@
             <img src="logo.png" alt="vuesion" />
           </fade-animation>
 
-          <vue-headline level="2">Conectando a la Mujer Rural Colombiana.</vue-headline>
+          <vue-headline level="2">Conectando a la Mujers Rural Colombiana.</vue-headline>
 
           <div :class="$style.subTitle">
             <!-- {{
@@ -152,7 +156,6 @@ export default {
   min-height: 100vh;
   width: 100%;
   position: absolute;
-  background-color: transparent;
   left: 0;
   top: 0;
 
