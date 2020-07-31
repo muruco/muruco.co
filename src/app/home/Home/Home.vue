@@ -1,7 +1,7 @@
 <template>
   <div>
     <stage :disable-particles="disableParticles" />
-    <home-section image="https://static.iris.net.co/semana/upload/images/2018/12/6/593669_1.jpg" alternative>
+    <home-section-video video="https://www.youtube.com/embed/SNDw__5kP0E" alternative>
       <vue-headline level="2">Comunidad Abierta</vue-headline>
       <br />
       <vue-headline level="3">¿Qué es MuRuCo? </vue-headline>
@@ -27,7 +27,7 @@
         <strong> creación de Comunidades Productivas Autónomas y Sustentables</strong>.
       </p>
       <br />
-    </home-section>
+    </home-section-video>
 
     <home-section image="/images/chatbot5.png" flip>
       <vue-headline level="2">Tecnología inclusiva</vue-headline>
@@ -131,6 +131,7 @@
 import { mapState } from 'vuex';
 import Stage from '../components/Stage/Stage.vue';
 import HomeSection from '@/app/home/components/HomeSection/HomeSection.vue';
+import HomeSectionVideo from '@/app/home/components/HomeSectionVideo/HomeSectionVideo.vue';
 import { IState } from '@/app/state';
 import VueHeadline from '@components/VueHeadline/VueHeadline.vue';
 
@@ -183,6 +184,7 @@ export default {
   components: {
     VueHeadline,
     HomeSection,
+    HomeSectionVideo,
     Stage,
   },
   computed: {
