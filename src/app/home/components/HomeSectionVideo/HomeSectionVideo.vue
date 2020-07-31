@@ -79,6 +79,7 @@ export default {
 .video {
   border-radius: 5px;
   margin-left: $space-16;
+  overflow-x: hidden;
 
   &:hover {
     -ms-transform: scale(1.02); /* IE 9 */
