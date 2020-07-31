@@ -1,24 +1,28 @@
 import { createLocalVue, mount } from '@vue/test-utils';
-import VueImage from './VueImage.vue';
+import VueVideo from './VueVideo.vue';
 
 const localVue = createLocalVue();
 
-describe('VueImage.vue', () => {
-  test('renders native image', () => {
-    const wrapper = mount<any>(VueImage, {
+describe('VueVideo.vue', () => {
+  test('renders native iframe', () => {
+    const wrapper = mount<any>(VueVideo, {
       localVue,
       propsData: {
         src: 'foo',
+        frameborder: '0',
+        allow: 'accelerometer; encrypted-media; gyroscope; picture-in-picture',
+        allowfullscreen: 'allowfullscreen',
       },
     });
     const actual = wrapper.html();
-    const expected = '<img src="foo">';
+    const expected =
+      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="foo"></iframe>';
 
     expect(actual).toBe(expected);
   });
 
-  test('renders image as div', () => {
-    const wrapper = mount<any>(VueImage, {
+  test('renders iframe as div', () => {
+    const wrapper = mount<any>(VueVideo, {
       localVue,
       propsData: {
         src: 'foo',
@@ -26,12 +30,12 @@ describe('VueImage.vue', () => {
       },
     });
     const actual = wrapper.html();
-    const expected = '<div style="background-image: url(foo);"></div>';
-
+    const expected =
+      '<div frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></div>';
     expect(actual).toBe(expected);
   });
 
-  test('renders image via observer', () => {
+  test('renders video via observer', () => {
     let disconnected = false;
     (window as any).IntersectionObserver = class IntersectionObserver {
       public cb: any;
@@ -50,14 +54,18 @@ describe('VueImage.vue', () => {
         disconnected = true;
       }
     };
-    const wrapper = mount<any>(VueImage, {
+    const wrapper = mount<any>(VueVideo, {
       localVue,
       propsData: {
         src: 'foo',
+        frameborder: '0',
+        allow: 'accelerometer; encrypted-media; gyroscope; picture-in-picture',
+        allowfullscreen: 'allowfullscreen',
       },
     });
     let actual: any = wrapper.html();
-    let expected: any = '<img src="foo">';
+    let expected: any =
+      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="foo"></iframe>';
 
     wrapper.vm.observer.observe();
 

@@ -1,11 +1,11 @@
 import { createLocalVue, mount } from '@vue/test-utils';
-import HomeSection from './HomeSection.vue';
+import HomeSectionVideo from './HomeSectionVideo.vue';
 
 const localVue = createLocalVue();
 
-describe('HomeSection.vue', () => {
+describe('HomeSectionVideo.vue', () => {
   test('renders component with alternative background', () => {
-    const wrapper = mount<any>(HomeSection, {
+    const wrapper = mount<any>(HomeSectionVideo, {
       localVue,
       propsData: {
         alternative: true,
@@ -19,7 +19,7 @@ describe('HomeSection.vue', () => {
   });
 
   test('renders component in reversed order', () => {
-    const wrapper = mount<any>(HomeSection, {
+    const wrapper = mount<any>(HomeSectionVideo, {
       localVue,
       propsData: {
         flip: true,
