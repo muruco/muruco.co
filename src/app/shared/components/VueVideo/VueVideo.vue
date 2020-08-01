@@ -1,5 +1,6 @@
 <template>
   <component
+    :class="$style.video"
     :is="component"
     ref="video"
     frameborder="0"

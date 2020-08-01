@@ -16,7 +16,7 @@ describe('VueVideo.vue', () => {
     });
     const actual = wrapper.html();
     const expected =
-      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="foo"></iframe>';
+      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="video" src="foo"></iframe>';
 
     expect(actual).toBe(expected);
   });
@@ -31,7 +31,7 @@ describe('VueVideo.vue', () => {
     });
     const actual = wrapper.html();
     const expected =
-      '<div frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></div>';
+      '<div frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="video"></div>';
     expect(actual).toBe(expected);
   });
 
@@ -65,7 +65,7 @@ describe('VueVideo.vue', () => {
     });
     let actual: any = wrapper.html();
     let expected: any =
-      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" src="foo"></iframe>';
+      '<iframe frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="video" src="foo"></iframe>';
 
     wrapper.vm.observer.observe();
 
