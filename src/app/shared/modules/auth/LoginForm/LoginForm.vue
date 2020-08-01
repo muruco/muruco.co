@@ -27,7 +27,13 @@
       v-model="password"
     />
 
-    <vue-button color="primary" tabindex="3" type="submit" :disabled="isSubmitDisabled" :loading="loading">
+    <vue-button
+      :class="$style.loginFormButtom"
+      tabindex="3"
+      type="submit"
+      :disabled="isSubmitDisabled"
+      :loading="loading"
+    >
       {{ $t('auth.LoginForm.cta' /* Login */) }}
     </vue-button>
   </form>
@@ -84,5 +90,11 @@ export default {
   @include mediaMin(tabletPortrait) {
     min-width: 512px;
   }
+}
+
+.loginFormButtom {
+  width: 100%;
+  background: #ff8b00;
+  border: 0;
 }
 </style>

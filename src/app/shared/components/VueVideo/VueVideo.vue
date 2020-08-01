@@ -62,3 +62,34 @@ export default {
   },
 };
 </script>
+<style lang="scss" module>
+@import '~@/app/shared/design-system';
+
+.video {
+  width: $nav-bar-width;
+  min-height: $nav-bar-height;
+  color: $nav-bar-color;
+  background: #ff8b00;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 10px #000000;
+
+  @include mediaMin(tabletPortrait) {
+    min-height: 512px;
+    margin-bottom: 0;
+  }
+
+  div {
+    flex: 0 0 33.333333%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+
+    &:last-child {
+      justify-content: flex-end;
+    }
+  }
+}
+</style>

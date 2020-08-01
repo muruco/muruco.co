@@ -1,5 +1,11 @@
 <template>
-  <div :class="[$style.homeSection, alternative ? $style.alternative : null]">
+  <div
+    :class="[
+      $style.homeSection,
+      alternative ? $style.alternative : $style.alternative2,
+      alternative2 ? $style.alternative2 : $style.alternative3,
+    ]"
+  >
     <vue-grid>
       <vue-grid-row :class="[flip ? $style.flip : null]">
         <vue-grid-item :class="$style.image">
@@ -28,6 +34,9 @@ export default {
     alternative: {
       type: Boolean,
     },
+    alternative2: {
+      type: Boolean,
+    },
     flip: {
       type: Boolean,
     },
@@ -47,7 +56,13 @@ export default {
 }
 
 .alternative {
-  background: $brand-bg-color-variant;
+  background: #ffffff;
+}
+.alternative2 {
+  background: #ff8b00;
+}
+s .alternative3 {
+  background: #000155;
 }
 
 .flip {
@@ -62,6 +77,7 @@ export default {
   background-repeat: no-repeat;
   background-position: 50%;
   margin-bottom: $space-32;
+  border-radius: 10px;
 
   &:hover {
     -ms-transform: scale(1.02); /* IE 9 */
@@ -73,5 +89,9 @@ export default {
     min-height: 512px;
     margin-bottom: 0;
   }
+}
+
+.text {
+  padding-top: 30px;
 }
 </style>

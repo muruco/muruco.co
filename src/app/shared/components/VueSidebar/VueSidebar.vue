@@ -64,7 +64,7 @@ export default {
   left: 0;
   height: $sidebar-height;
   background: $sidebar-bg;
-  color: $sidebar-color;
+  color: #ffff;
   max-width: $sidebar-max-width;
   padding: $sidebar-padding;
   margin: $sidebar-margin;
@@ -73,7 +73,7 @@ export default {
   transition: transform $brand-transition-duration ease-in-out;
   width: $sidebar-width;
   -webkit-overflow-scrolling: touch;
-  background-color: #ffe6c7;
+  background-color: #ff8b00;
 
   &.open {
     transform: translateX(0);

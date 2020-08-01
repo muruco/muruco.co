@@ -115,8 +115,9 @@ export default {
   z-index: $modal-index;
   box-shadow: $modal-shadow;
   padding: $modal-padding;
-  overflow-y: scroll;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  border-radius: 10px;
 
   @include mediaMin(tabletPortrait) {
     max-width: $modal-max-width;

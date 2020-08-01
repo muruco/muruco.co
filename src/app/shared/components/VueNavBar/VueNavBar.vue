@@ -30,7 +30,8 @@ export default {
   position: fixed;
   top: 0;
   left: 0;
-  background: #ff8b00;
+  /* background: #ff8b00; */
+  background: transparent;
   display: flex;
   flex-direction: row;
   align-content: center;

@@ -56,7 +56,8 @@ export default {
 
 .vueFooter {
   padding: $footer-padding;
-  background: $footer-bg;
+  /* background: #f43b6c; */
+  background: #e74f04;
   color: $footer-color;
   text-align: center;
 

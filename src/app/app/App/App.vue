@@ -83,18 +83,6 @@
         </vue-sidebar-group-item>
 
         <vue-sidebar-group-item>
-          <a href="https://discord.gg/59x5cg2" target="_blank" rel="noopener"> Discord </a>
-        </vue-sidebar-group-item>
-
-        <vue-sidebar-group-item>
-          <a href="https://slack-vuesion.herokuapp.com/" target="_blank" rel="noopener"> Slack </a>
-        </vue-sidebar-group-item>
-
-        <vue-sidebar-group-item>
-          <a href="https://chat.vuejs.org/" target="_blank" rel="noopener"> VueLand </a>
-        </vue-sidebar-group-item>
-
-        <vue-sidebar-group-item>
           <a href="https://twitter.com/vuesion1" target="_blank" rel="noopener">
             <vue-icon-twitter-square />
             Twitter

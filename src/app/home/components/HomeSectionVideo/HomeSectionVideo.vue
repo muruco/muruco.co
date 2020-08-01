@@ -2,8 +2,8 @@
   <div :class="[$style.homeSection, alternative ? $style.alternative : null]">
     <vue-grid>
       <vue-grid-row :class="[flip ? $style.flip : null]">
-        <vue-grid-item :class="$style.image">
-          <vue-video :src="video" :native="true" :class="$style.video" />
+        <vue-grid-item :class="$style.imagen">
+          <vue-video :src="video" :native="true" />
         </vue-grid-item>
         <vue-grid-item :class="$style.text"><slot /></vue-grid-item>
       </vue-grid-row>
@@ -47,7 +47,7 @@ export default {
 }
 
 .alternative {
-  background: $brand-bg-color-variant;
+  background: #ffffff;
 }
 
 .flip {
@@ -57,8 +57,9 @@ export default {
 }
 
 .image {
-  min-height: 600px;
-  min-width: 600px;
+  min-height: 512px;
+  min-width: 512px;
+  padding-bottom: 12px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -71,15 +72,20 @@ export default {
   }
 
   @include mediaMin(tabletPortrait) {
-    min-height: 350px;
+    min-height: 256px;
+    min-width: 256px;
     margin-bottom: 0;
   }
 }
 
 .video {
   border-radius: 5px;
+  min-width: 128px;
+  min-height: 180px;
   margin-left: $space-16;
   overflow-x: hidden;
+  padding-right: 30px;
+  padding-bottom: 30px;
 
   &:hover {
     -ms-transform: scale(1.02); /* IE 9 */
@@ -88,8 +94,8 @@ export default {
   }
 
   @include mediaMin(tabletPortrait) {
-    min-width: 600px;
-    min-height: 600px;
+    min-width: 512px;
+    min-height: 512px;
     margin-bottom: 0;
   }
 }
